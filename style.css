@@ -44,7 +44,7 @@ table {
 
 
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote{
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -85,6 +85,8 @@ img{
     margin-top: 38px;
     margin-bottom: 10px;
     margin: auto;
+    filter: saturate(0.4);
+    filter: contrast(50deg);
 }
 
 .grey{
